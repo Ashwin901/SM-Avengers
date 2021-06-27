@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
 }
 
 h2{
@@ -17,12 +19,14 @@ hr{
 }
 
 .landing-div {
-    padding: 2rem;
+    padding: 1rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
 }
 
 .post-card {
@@ -35,6 +39,11 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.new-post-button{
+    align-self: center;
 }
 
 .form-div{
@@ -71,8 +80,17 @@ hr{
     height: 100vh;
     align-items: center;
     justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .auth-button{
     margin: 1rem 1rem;
+    border: none;
+}
+
+.loading-div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

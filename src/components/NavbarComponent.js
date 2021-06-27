@@ -38,7 +38,7 @@ const NavbarComponent = () => {
                 Avengers
             </Navbar.Brand>
             <Navbar.Collapse className="justify-content-end">
-                <Button className="nav-button" onClick={() => history.push('/post/newpost')} variant="primary" type="button">New Post</Button>
+                <Button className="nav-button" onClick={() => history.push('/post/newpost')} variant="light" type="button">New Post</Button>
                 <Button className="nav-button" onClick={logout} variant="danger" type="button">Log out</Button>
             </Navbar.Collapse>
         </Navbar>

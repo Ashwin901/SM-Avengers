@@ -29,7 +29,7 @@ const LandingPage = () => {
                         <Card className="post-card" style={{ width: '25rem' }}>
                             <Card.Img className="card-img" variant="top" src={post.imageUrl} />
                             <Card.Body>
-                                <Card.Title>{post.caption}</Card.Title>
+                                <Card.Title style={{"fontWeight":"bold"}}>{post.caption}</Card.Title>
                                 <Card.Text>
                                     By {post.email}
                                 </Card.Text>
